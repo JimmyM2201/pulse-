@@ -1,0 +1,35 @@
+/**
+ * Pulse Design System — Centralized Semantic Design Tokens
+ * 
+ * Palette:
+ * Primary: #2d5356
+ * Secondary: #d09724
+ * Light grey: #f6f6f6
+ * Font: #000000
+ * BG: #ffffff
+ */
+
+:root {
+  /* Color Palette Tokens */
+  --color-bg: #ffffff;
+  --color-surface: #ffffff;
+  --color-light-grey: #f6f6f6;
+  --color-primary: #2d5356;
+  --color-primary-hover: #223f41;
+  --color-secondary: #d09724;
+  --color-secondary-hover: #b7831d;
+  --color-border: #e5e5e5;
+  --color-text-primary: #000000;
+  --color-text-secondary: #525252;
+  --color-text-muted: #737373;
+  --color-error: #b42318;
+  --color-success: #2d5356;
+
+  /* Typography Families */
+  --font-serif: "Lora", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Radius Tokens */
+  --radius-control: 8px;
+  --radius-card: 14px;
+}
